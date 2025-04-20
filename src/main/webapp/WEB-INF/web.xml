@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>BrowseCompServlet</display-name>
+    <servlet-name>BrowseCompServlet</servlet-name>
+    <servlet-class>com.financial.BrowseCompServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrowseCompServlet</servlet-name>
+    <url-pattern>/BrowseCompServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
